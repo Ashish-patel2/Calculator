@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="form.css">
+<!--this is a cintact form--->
+  <title>contact form</title>
+</head>
+<body>
+  <h1 class="hadding">
+    Contact form
+  </h1>
+  <p class="required">
+    filled required show by *
+  </p>
+  <hr>
+  <p>first name *<br><input type="text" name="name" id="first" required placeholder="name">
+  </p>
+   <p>last name *<br><input type="text" name="last" id="last"required placeholder="sir name">
+   </p>
+     <p>
+       Contact no.* <br><input type="number"required placeholder="1234567890"><select name="nmber" id="nmber"><option value="home no.">home no.</option>
+     <option value="mobile no.">mobile no.</option></select>
+     </p>
+  <p> 
+    <fieldset>
+    <legend>Gender* </legend>
+    Male <input type="radio" name="gender" id="male">
+    Female <input type="radio" name="gender" id="female">
+    
+  </fieldset>
+  </p>
+  <p>DOB * <input type="date" name="DOB" id="date of birth"required placeholder="D-M-Y"></p>
+  <p>
+    Address *<textarea name="address" id="addresss" cols="20" rows="5"required placeholder="state name,coloney name,gali no.,house no."></textarea>
+  </p>
+  <p> Email *<input type="email" name="email" id="email"required placeholder="abc@email.com"></p>
+ <input type="submit" value="Add to contact"><input type="reset" value="Reset">
+</body>
+</html>

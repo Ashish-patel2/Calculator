@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+nav{
+  list-style-type: none;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 5vw;
+}
+.game-container{
+  margin-top: 60px;
+  margin-right: 42px;
+   
+ 
+}
+.container{
+  margin-left: 10vw;
+  display: grid;
+  grid-template-rows: repeat(3,1fr);
+grid-template-columns: repeat(3,1fr);
+
+
+}
+.bt-o{
+        border-top: none;
+}
+.box{
+        border: 2px solid black;
+        text-align: center;
+        height: 25vw;
+}
+.box:hover{
+  background-color: lightblue;
+  cursor: pointer;
+}
+div.bt-o{
+  border-top: none;
+}
+div.bl-o {
+  border-left: none;
+}
+div.br-o{
+ border-right: none;
+}
+div.bb-o{
+  border-bottom: none;
+}
+.gameInfo{
+  margin-top: 20vw;
+  text-align: center;
+  
+} button,
+.info{
+ 
+  margin-left: 70px;
+  
+}
+.text{
+        padding-top: 20px;
+        font-size: 44px;
+}

@@ -1,0 +1,17 @@
+.big-container{
+            display: grid;
+            grid-template-raw: repeat(6,1fr);
+             grid-gap: 10px;
+             height:600px;
+ 
+        }
+        .small-container{
+            display:grid;
+            background-color:white;
+            grid-gap:10px;
+        }
+        .item{
+          background-color: skyblue;
+           
+
+        }
